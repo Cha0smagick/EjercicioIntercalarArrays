@@ -16,20 +16,16 @@ public class UsoArrayEjemplo {
         for (int i = 0; i < 3; i++) {
             String captura = JOptionPane.showInputDialog("inserte el caracter en la " + i + " posicion");
             conjunto1.add(captura);
-
         }
         for (int i = 0; i < 3; i++) {
             String captura = JOptionPane.showInputDialog("inserte el caratcer en la " + i + " posicion");
             conjunto2.add(captura);
-
         }
 
         for (int i = 0; i < 3; i++) {
             conjunto3.add(conjunto1.get(i));
             conjunto3.add(conjunto2.get(i));
         }
-
         JOptionPane.showMessageDialog(null, conjunto3);
-
     }
 }
